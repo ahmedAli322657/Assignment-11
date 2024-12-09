@@ -1,0 +1,47 @@
+.bg-img{
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.input-edit{
+    background-color: #323544;
+    border: none;
+}
+
+.input-edit::placeholder{
+    color: white !important;
+    opacity: 0.4;
+}
+
+.input-edit:focus{
+    background-color: #323544;
+}
+.fs{
+    font-size: 5rem;
+}
+.input-edit2{
+    background-color: #262936;
+}
+.navbar{
+    background-color: #323544 !important;
+}
+.icons-size{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #323544;
+    color: #009AD8;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.icons-size:hover{
+    background-color: #009AD8;
+}
+.icons-size:hover i{
+    color: white;
+}
+body{
+    background-color: #262936;
+}
